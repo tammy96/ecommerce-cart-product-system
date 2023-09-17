@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 // import { faShoppingCart } from '@fortawesome/fontawesome-free-solid';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import homeicon from '../images/icons8-home.svg'
 
 
 
@@ -22,8 +23,9 @@ const RootLayout = () => {
           
                     <NavLink className={'text-2xl focus:bg-gray-700 py-6'} to="Home">
                        <h1 className='hidden md:block'>Home</h1>
-                       
+                        <img src={homeicon} alt='home icon' className='w-8 h-8  md:hidden' />
                     </NavLink>
+
                     {/* <NavLink className={'text-2xl focus:bg-gray-700 py-6'} to="CartPage"> */}
                     <Link className={'text-2xl focus:bg-gray-700 py-6'} to={`/CartPage/${index}`}>
 

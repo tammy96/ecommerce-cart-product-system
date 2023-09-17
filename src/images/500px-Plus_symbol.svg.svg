@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+	<title>500px-Plus_symbol</title>
+	<defs>
+		<image  width="212" height="211" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAADTBAMAAAAL9SCTAAAAAXNSR0IB2cksfwAAACpQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAChPOiAAAAA50Uk5TAKpk/5YoiM5LI3fH7oz+qaYQAAAAnklEQVR4nO3VQQ2AMBREwVoAKyWBBB84ACO4wAFoAU8cWgP/Qhoy776Z46YUrSv14WG8XBpQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCNUstW7BKjdHdmvb8URMKhUKhfkcdV7C6nKO788sXRqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCtUqdZee8PAF0MXmwPV3CKQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="144" y="197"/>
+</svg>

@@ -25,9 +25,9 @@ const Home = () => {
 
       <div className='flex flex-row flex-wrap gap-6 w-full h-fit justify-center'>
         {salesProducts.map((product, index) => (
-          <div className='w-56 h-fit shadow-lg space-y-2' key={index}>
+          <div className='w-44 h-fit shadow-lg space-y-2 md:w-56' key={index}>
             <Link to={`/product/${index}`}>
-              <img src={product.image[0]} alt={product.name} className='w-full h-56 p-2 border-b-2 border-b-solid border-b-slate-200 flex self-center object-cover' />
+              <img src={product.image[0]} alt={product.name} className='w-44 h-44 p-2 border-b-2 border-b-solid border-b-slate-200 flex self-center object-cover md:w-full md:h-56' />
             </Link>
 
             <h1 className='px-2'>{product.name}</h1>

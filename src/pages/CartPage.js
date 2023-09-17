@@ -41,7 +41,7 @@ const CartPage = () => {
         {cart.length === 0 ? (
             <p>Your cart is empty.</p>
         ) : (
-            <div className="flex flex-col p-3">
+          <div className="flex flex-col p-3">
                 {cart.map((item) => (                 
                 // if(index.toString() === item.index) {
                         
@@ -61,21 +61,21 @@ const CartPage = () => {
                             <p>{item.name}</p>
                         </div>
                             
-                        <div className="flex flex-col gap-12 justify-end">
+                        <div className="flex flex-col gap-6 justify-end md:gap-12">
                             <p className="self-start">{item.price}</p>     
                                         
                             <div className="flex flex-row gap-6">
                            
-                            <button onClick={() => handleDecrementQuantity(item.index)}><img src={minusicon} className='border border-solid border-slate-600 w-10 sm:w-6 p-1' /></button>
+                            <button onClick={() => handleDecrementQuantity(item.index)} className='text-lg bg-orange-400 px-2 text-white md:w-6'>-</button>
                             <span className='text-lg'>{item.quantity}</span>
-                            <button onClick={() => handleIncrementQuantity(item.index)}><img src={plusicon} className='border border-solid border-slate-600 w-10 sm:w-6 text-white' /></button>
+                            <button onClick={() => handleIncrementQuantity(item.index)} className='text-lg bg-orange-400 px-2 text-white md:w-6'>+</button>
                             </div>
                         </div>                                        
                     </div>
                 </div>    
                             
             ))}
-            </div>
+          </div>
         )}
     </div>
   );
